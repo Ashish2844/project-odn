@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container {
+        display: flex;
+        border: 1px solid black;
+        width: 700px;
+        height: 350px;
+    }
+
+    .flex-item1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 20%;
+        height: 100%;
+    }
+
+   .flex-item2{
+        border: 0.5px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+        height: 100%;
+        font-size: 15px;
+    }
+
+    .flex-item2 div:nth-child(1){
+        font-size: 20px;
+    }
+
+</style>
+
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item1">
+            <div><b>Nutrition (Macros)</b></div>
+            <div><li>Proteins</li></div>
+            <div><li>Carbohydrates</li></div>
+            <div><li>Fats</li></div>
+        </div>
+        <div class="flex-item2">
+            <div><b>Description about macros</b></div>
+                    <div><li><b>Proteins</b> are large, complex molecules that play many critical roles in the body. They do most of
+                        the work in cells and are required for the structure, function, and regulation of the body's
+                        tissues and organs</li></div>
+
+                    <div><li><b>Carbohydrates</b>, or carbs, are sugar molecules. Along with proteins and fats, carbohydrates are
+                        one of three main nutrients found in foods and drinks. Your body breaks down carbohydrates into
+                        glucose. Glucose, or blood sugar, is the main source of energy for your body's cells, tissues,
+                        and organs.</li></div>
+
+                    <div><li>A small amount of <b>Fat</b> is an essential part of a healthy, balanced diet. Fat is a source of
+                        essential fatty acids, which the body cannot make itself. Fat helps the body absorb vitamin A,
+                        vitamin D and vitamin E. These vitamins are fat-soluble, which means they can only be absorbed
+                        with the help of fats.</li></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
